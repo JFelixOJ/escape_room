@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "johnny-five": "^2.1.0",
+    "serialport": "^9.2.3",
     "ws": "^8.2.2"
   }
 }

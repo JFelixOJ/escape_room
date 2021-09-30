@@ -12,11 +12,13 @@ public class WS_Client : MonoBehaviour
             //string json = JsonUtility.ToJson(e);
             // string json = JsonUtility.ToJson(e, true);
 
-            Debug.Log("This is the object " + e.Data);
+            Debug.Log("The temperature is " + e.Data);
 
 
         };
-    }private void Update()
+    }
+    
+    private void Update()
     {
         if(ws == null)
         {
