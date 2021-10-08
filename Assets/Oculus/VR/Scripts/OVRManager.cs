@@ -2019,7 +2019,7 @@ public class OVRManager : MonoBehaviour, OVRMixedRealityCaptureConfiguration
 
 	private void OnDestroy()
 	{
-		Debug.Log("[OVRManager] OnDestroy");
+		//Debug.Log("[OVRManager] OnDestroy");
 		OVRManagerinitialized = false;
 	}
 
@@ -2027,11 +2027,11 @@ public class OVRManager : MonoBehaviour, OVRMixedRealityCaptureConfiguration
 	{
 		if (pause)
 		{
-			Debug.Log("[OVRManager] OnApplicationPause(true)");
+			//Debug.Log("[OVRManager] OnApplicationPause(true)");
 		}
 		else
 		{
-			Debug.Log("[OVRManager] OnApplicationPause(false)");
+			//Debug.Log("[OVRManager] OnApplicationPause(false)");
 		}
 	}
 
@@ -2039,17 +2039,17 @@ public class OVRManager : MonoBehaviour, OVRMixedRealityCaptureConfiguration
 	{
 		if (focus)
 		{
-			Debug.Log("[OVRManager] OnApplicationFocus(true)");
+		//	Debug.Log("[OVRManager] OnApplicationFocus(true)");
 		}
 		else
 		{
-			Debug.Log("[OVRManager] OnApplicationFocus(false)");
+			//Debug.Log("[OVRManager] OnApplicationFocus(false)");
 		}
 	}
 
 	private void OnApplicationQuit()
 	{
-		Debug.Log("[OVRManager] OnApplicationQuit");
+		//Debug.Log("[OVRManager] OnApplicationQuit");
 	}
 
 	#endregion // Unity Messages
